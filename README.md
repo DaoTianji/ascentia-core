@@ -58,9 +58,9 @@ flowchart TD
     LocalCache -.->|"Cache Miss Read"| Redis
     Redis -.->|"Cache Miss Read"| PG
     NATS -.->|"Broadcast Cache Eviction"| LocalCache
-````
+```
 
------
+---
 
 ## ✨ Core Capabilities
 
@@ -109,7 +109,7 @@ go run ./cmd/ascentia-core/
 
 By default, the WebSocket server listens at `ws://127.0.0.1:8080/ws`.
 
-> **💡 Debugging tip:** \> With `WS_AUTH_MODE=none`, you can connect directly using query parameters like `?user_id=123&agent_id=456`. For production setups, please read our [Security Guide](https://www.google.com/search?q=docs/en/WS_SECURITY.md).
+> **💡 Debugging tip:** With `WS_AUTH_MODE=none`, you can connect directly using query parameters like `?user_id=123&agent_id=456`. For production setups, please read our [Security Guide](docs/en/WS_SECURITY.md).
 
 -----
 
@@ -117,10 +117,10 @@ By default, the WebSocket server listens at `ws://127.0.0.1:8080/ws`.
 
 | Resource | Description |
 |------|------|
-| [📖 Docs Root](https://www.google.com/search?q=docs/README.md) | Language index |
-| [💡 Capabilities & Rationale](https://www.google.com/search?q=docs/en/CAPABILITIES.md) | **Must read.** Deep dive into the Agent narrative, memory flows, and reflection. |
-| [🏗️ Architecture Overview](https://www.google.com/search?q=docs/en/ARCHITECTURE.md) | Module boundaries and dependency explanations. |
-| [🔒 Security & WebSocket Auth](https://www.google.com/search?q=docs/en/WS_SECURITY.md) | JWT setups and gateway patterns. |
+| [📖 Docs Root](docs/README.md) | Language index |
+| [💡 Capabilities & Rationale](docs/en/CAPABILITIES.md) | **Must read.** Deep dive into the Agent narrative, memory flows, and reflection. |
+| [🏗️ Architecture Overview](docs/en/ARCHITECTURE.md) | Module boundaries and dependency explanations. |
+| [🔒 Security & WebSocket Auth](docs/en/WS_SECURITY.md) | JWT setups and gateway patterns. |
 
 -----
 
@@ -138,11 +138,8 @@ This is a growing project. Here's what we are planning to tackle next:
 
 ## License & Community
 
-  - **License:** [MIT License](https://www.google.com/search?q=LICENSE)
-  - **Code of Conduct:** [Contributor Covenant](https://www.google.com/search?q=CODE_OF_CONDUCT.md)
+  - **License:** [MIT License](LICENSE)
+  - **Code of Conduct:** [Contributor Covenant](CODE_OF_CONDUCT.md)
   - **Security:** [SECURITY.md](SECURITY.md)
 
-Maintained by **DaoTianji**. Contributions, issues, and PRs are welcome\!
-
-```
-```
+Maintained by **DaoTianji**. Contributions, issues, and PRs are welcome!

@@ -114,7 +114,7 @@ go run ./cmd/ascentia-core/
 默认 WebSocket 端点为：`ws://127.0.0.1:8080/ws`（可通过 `PORT` 与 `WS_PATH` 环境变量修改）。
 
 > **💡 调试建议：**
-> 当开启 `WS_AUTH_MODE=none` 时，可通过查询参数（如 `?user_id=123&agent_id=456`）直接建立连接并测试。生产环境的鉴权配置请务必参考 [WebSocket 安全指南](https://www.google.com/search?q=docs/zh-CN/WS_SECURITY.md)。
+> 当开启 `WS_AUTH_MODE=none` 时，可通过查询参数（如 `?user_id=123&agent_id=456`）直接建立连接并测试。生产环境的鉴权配置请务必参考 [WebSocket 安全指南](docs/zh-CN/WS_SECURITY.md)。
 
 ---
 
@@ -123,10 +123,10 @@ go run ./cmd/ascentia-core/
 
 | 核心文档                                                                             | 内容说明                               |
 | -------------------------------------------------------------------------------- | ---------------------------------- |
-| [📖 中英双语文档索引](https://www.google.com/search?q=docs/README.md)                    | 包含所有模块的详细说明指引                      |
-| [💡 能力详解与设计理念](https://www.google.com/search?q=docs/zh-CN/CAPABILITIES.md)       | **推荐阅读**。详细阐述 Agent 叙事、记忆流转逻辑与反思机制 |
-| [🏗️ 架构与数据流](https://www.google.com/search?q=docs/zh-CN/ARCHITECTURE.md)         | 模块边界、依赖关系与代码结构说明                   |
-| [🔒 生产级 WebSocket 安全](https://www.google.com/search?q=docs/zh-CN/WS_SECURITY.md) | JWT 配置、网关鉴权与跨域策略                   |
+| [📖 中英双语文档索引](docs/README.md)                    | 包含所有模块的详细说明指引                      |
+| [💡 能力详解与设计理念](docs/zh-CN/CAPABILITIES.md)       | **推荐阅读**。详细阐述 Agent 叙事、记忆流转逻辑与反思机制 |
+| [🏗️ 架构与数据流](docs/zh-CN/ARCHITECTURE.md)         | 模块边界、依赖关系与代码结构说明                   |
+| [🔒 生产级 WebSocket 安全](docs/zh-CN/WS_SECURITY.md) | JWT 配置、网关鉴权与跨域策略                   |
 
 
 ---
@@ -145,8 +145,8 @@ go run ./cmd/ascentia-core/
 
 ## 协议与致谢
 
-- 许可证：[MIT License](https://www.google.com/search?q=LICENSE)
-- 行为准则：[Contributor Covenant](https://www.google.com/search?q=CODE_OF_CONDUCT.md)
-- 安全与漏洞报告：[SECURITY.zh-CN.md](https://www.google.com/search?q=SECURITY.zh-CN.md)
+- 许可证：[MIT License](LICENSE)
+- 行为准则：[Contributor Covenant](CODE_OF_CONDUCT.md)
+- 安全与漏洞报告：[SECURITY.zh-CN.md](SECURITY.zh-CN.md)
 
 由 **DaoTianji** 维护。欢迎提交 Issue 探讨架构或通过 PR 贡献代码！
