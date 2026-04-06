@@ -1,0 +1,9 @@
+services:
+  mudnet_overseer:
+    build: .
+    container_name: mudnet_overseer
+    restart: always
+    ports:
+      - "31910:8080" # 左边是外网访问端口，右边是容器内端口
+    env_file:
+      - .env # 读取同目录下的 .env 配置文件
