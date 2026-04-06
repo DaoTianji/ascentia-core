@@ -2,7 +2,7 @@
 
 **🚀 A Pragmatic, Lightweight Agent Runtime in Go | The Scaffolding Around Your LLM**
 
-**Language:** **English (this page)** | [简体中文](README.md)
+**Language:** **English (this page)** | [简体中文](README.zh-CN.md)
 
 [![CI](https://github.com/DaoTianji/ascentia-core/actions/workflows/ci.yml/badge.svg)](https://github.com/DaoTianji/ascentia-core/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
